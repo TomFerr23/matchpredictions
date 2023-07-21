@@ -1,0 +1,89 @@
+/* General Styles */
+/* Same styles as before */
+
+/* Individual Brand Page */
+.brand-details {
+    padding: 40px 0;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid var(--deep-blue);
+    background-color: #f7f7f7;
+  }
+
+  
+  .brand-name {
+    font-size: 36px;
+    color: var(--deep-blue);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .brand-logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .brand-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 24px;
+    border: 1px solid var(--deep-blue);
+    background-color: rgb(229, 238, 253);
+  }
+  
+  .brand-column {
+    flex: 1;
+    max-width: 450px;
+  }
+  
+  .brand-column h3 {
+    font-size: 24px;
+    color: var(--deep-blue);
+    margin-bottom: 10px;
+  }
+
+  .brand-column h3:first-child {
+    margin-left: 15px;
+  }
+  
+  .brand-column ul,
+  .brand-column blockquote {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .brand-column blockquote {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .affiliate-link {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .affiliate-link .btn-primary {
+    padding: 10px 20px;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .affiliate-link p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  .affiliate-link .btn-primary:hover {
+    background-color: green;
+  }
+  

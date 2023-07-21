@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Predictions</title>
+    <link rel="icon" type="image/x-icon" href="media\favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bettingtips.css">
+
+    <script>
+        window.addEventListener('load', function() {
+  var logo = document.querySelector('.logo');
+  logo.style.animationName = 'slideInLogo';
+});
+
+    </script>
+    
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+          <div class="logo">
+            <img src="media\logo.png" alt="Logo">
+          </div>
+          <nav id="navbar">
+            <ul class="nav-menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="bettintips.html" style="color: var(--orange);">Betting Tips</a></li>
+              <li><a href="brands.html">Brands</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#about-us">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </header>
+      <!-- END HEADER -->
+
+
+
+<!-- SUBCATEGORIES -->
+<!-- Dropdown Menu -->
+<div class="categories">
+  <div class="category">
+    <h3>Football</h3>
+    <div class="subcategories">
+      <div class="subcategory">Premier League</div>
+      <div class="subcategory">La Liga</div>
+      <div class="subcategory">Bundesliga</div>
+      <div class="subcategory">Serie A</div>
+      <div class="subcategory">Ligue 1</div>
+      <div class="subcategory">Champions League</div>
+      <div class="subcategory">Europa League</div>
+      <div class="subcategory">Conference League</div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h3>Basketball</h3>
+    <div class="subcategories">
+      <div class="subcategory">NBA</div>
+      <div class="subcategory">EuroLeague</div>
+      <div class="subcategory">ACB</div>
+      <div class="subcategory">BBL</div>
+      <div class="subcategory">LNB</div>
+    </div>
+  </div>
+
+  <!-- Add more categories and subcategories as needed -->
+  <div class="category">
+    <h3>Tennis</h3>
+    <div class="subcategories">
+      <div class="subcategory">Wimbledon</div>
+      <div class="subcategory">Roland Garros</div>
+      <div class="subcategory">US Open</div>
+      <div class="subcategory">Australian Open</div>
+      <div class="subcategory">ATP</div>
+    </div>
+  </div>
+
+  <div class="category">
+    <h3>Motors</h3>
+    <div class="subcategories">
+      <div class="subcategory">Formula 1</div>
+      <div class="subcategory">Moto GP</div>
+      <div class="subcategory">Formula E</div>
+      <div class="subcategory">Nascar</div>
+      <div class="subcategory">LNB</div>
+    </div>
+  </div>
+</div>
+<!-- SUBCATEGORIES END -->
+
+
+
+<!-- Betting Tips Page -->
+<section class="betting-tips">
+  <!-- Football Section -->
+  <div class="category-section">
+    <h2>Football</h2>
+    <div class="betting-tips-cards">
+      <!-- Betting Tip Card -->
+      <div class="betting-tip-card">
+        <div class="teams-icons">
+          <!-- Team Icons -->
+          <img src="media\mancitylogo.png" alt="Team 1 Logo" />
+          <img src="media\manunitedlogo.png" alt="Team 2 Logo" />
+        </div>
+        <!-- Image Preview of the Match -->
+        <img src="media\unitedvscity.jpg" alt="Match Preview" class="match-preview" />
+        <h3>Manchester Derby</h3>
+        <p>Analysis and predictions for the upcoming Manchester Derby match.</p>
+        <p>Recommended Bet: Manchester United to win</p>
+        <div class="quotations">
+          <!-- Add quotations here -->
+          <p>Bookmaker A: 2.0</p>
+          <p>Bookmaker B: 2.1</p>
+        </div>
+      </div>
+      <!-- Add more betting tips cards as needed -->
+      <div class="betting-tip-card">
+        <div class="teams-icons">
+          <!-- Team Icons -->
+          <img src="media\Logo_of_AC_Milan.svg.png" alt="Team 1 Logo" />
+          <img src="media\FC_Internazionale_Milano_2021.svg.png" alt="Team 2 Logo" />
+        </div>
+        <!-- Image Preview of the Match -->
+        <img src="media\milaninter.jpg" alt="Match Preview" class="match-preview" />
+        <h3>La Madonnina Derby</h3>
+        <p>Analysis and predictions for the upcoming Derby della Madonnina match.</p>
+        <p>Recommended Bet: Milan to win</p>
+        <div class="quotations">
+          <!-- Add quotations here -->
+          <p>Bookmaker A: 2.0</p>
+          <p>Bookmaker B: 2.1</p>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+
+  <!-- Basketball Section -->
+  <!-- Add more category sections as needed -->
+  <div class="category-section">
+    <h2>Basketball</h2>
+    <div class="betting-tips-cards">
+      <!-- Betting Tip Card -->
+      <div class="betting-tip-card">
+        <div class="teams-icons">
+          <!-- Team Icons -->
+          <img src="media\lakerslogo.png" style="width: 70px;" alt="Team 1 Logo" />
+          <img src="media\netslogo.png" alt="Team 2 Logo" />
+        </div>
+        <!-- Image Preview of the Match -->
+        <img src="media\lakersvsnets.jpg" alt="Match Preview" class="match-preview" />
+        <h3>NBA Finals</h3>
+        <p>Predictions for the NBA Finals between the Lakers and the Nets.</p>
+        <p>Recommended Bet: Over 220.5 Total Points</p>
+        <div class="quotations">
+          <!-- Add quotations here -->
+          <p>Bookmaker X: 1.8</p>
+          <p>Bookmaker Y: 1.9</p>
+        </div>
+      </div>
+      <!-- Add more betting tips cards as needed -->
+      <div class="betting-tip-card">
+        <div class="teams-icons">
+          <!-- Team Icons -->
+          <img src="media\celticslogo.png" alt="Team 1 Logo" />
+          <img src="media\bullslogo.png" alt="Team 2 Logo" />
+        </div>
+        <!-- Image Preview of the Match -->
+        <img src="media\celticvsbulls.png" alt="Match Preview" class="match-preview" />
+        <h3>NBA Finals</h3>
+        <p>Predictions for the NBA Finals between the Celtics and the Bulls.</p>
+        <p>Recommended Bet: Over 220.5 Total Points</p>
+        <div class="quotations">
+          <!-- Add quotations here -->
+          <p>Bookmaker X: 2.0</p>
+          <p>Bookmaker Y: 2.1</p>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+<!-- End Betting Tips Page -->
+
+
+
+
+  
+      
+
+
+      <!-- PRE-FOOTER -->
+<section class="pre-footer">
+    <div class="pre-footer-content">
+      <div class="pre-footer-text">
+        <h5>Receive exclusive deals via email + get our complimentary eBook</h5>
+        <h6>Becoming a sports betting pro takes time and effort. Join now to access our free eBook and receive the MatchPredictions.com newsletter packed with expert tips & unbeatable deals online!</h6>
+        <p>By subscribing, I consent to MatchPredictions.com sending me periodic newsletters via email, featuring thrilling offers. This permission can be withdrawn at any time.</p>
+      </div>
+      <div class="pre-footer-form">
+        <input type="email" placeholder="Enter your email address" />
+        <button type="submit">Subscribe</button>
+      </div>
+      <div class="pre-footer-icon">
+        <img src="media\paper.svg" alt="Icon" width="60" height="60" />
+      </div>
+    </div>
+  </section>
+  <!-- PRE-FOOTER END -->
+  
+  
+  
+  <!-- FOOTER -->
+<footer class="footer">
+  <div class="container-footer">
+    <div class="footer-column">
+      <h4>About Us</h4>
+      <p>MatchPredictions.com is a comprehensive online platform dedicated to providing valuable resources and insights</p>
+    </div>
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#betting-tips">Betting Tips</a></li>
+        <li><a href="#brands">Brands</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#privacy-policy">Privacy Policy</a></li>
+        <li><a href="#terms-of-service">Terms of Service</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Contact Information</h4>
+      <p>info@matchpredictions.com</p>
+      <div class="social-media-icons">
+        <!-- Add social media icons here -->
+        <a href="#" target="_blank"><img src="media\face.svg" alt="Facebook"></a>
+        <a href="#" target="_blank"><img src="media\twit.svg" alt="Twitter"></a>
+        <a href="#" target="_blank"><img src="media\insta.svg" alt="Instagram"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2023 MatchPredictions.com - All rights reserved.</p>
+      <p>Terms of Service | Privacy Policy</p>
+    </div>
+  </div>
+</footer>
+<!-- END FOOTER -->
+  
+    <script>
+      // JavaScript
+const categories = document.querySelectorAll('.category');
+
+categories.forEach((category) => {
+  category.addEventListener('mouseover', () => {
+    category.querySelector('.subcategories').style.display = 'flex';
+  });
+
+  category.addEventListener('mouseout', () => {
+    category.querySelector('.subcategories').style.display = 'none';
+  });
+});
+
+    </script>
+
+    <script>
+      // JavaScript to handle the click events and toggle subcategories
+document.addEventListener("DOMContentLoaded", function () {
+  const categories = document.querySelectorAll(".category");
+  categories.forEach((category) => {
+    category.addEventListener("click", function () {
+      this.querySelector(".subcategories").classList.toggle("active");
+    });
+  });
+});
+
+    </script>
+    
+  
+  
+        
+  <script src="menu.js"></script>   
+      
+  </body>
+  </html>
